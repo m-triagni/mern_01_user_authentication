@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var API_Registration = 'registration';","map":{"version":3,"sources":["C:/Agni/Udemy/MERNStack_AWS/SourceCode/frontend/listAPI.js"],"names":["API_Registration"],"mappings":"AAAA,OAAO,IAAMA,gBAAgB,GAAG,cAAzB","sourcesContent":["export const API_Registration = 'registration';"]},"metadata":{},"sourceType":"module"}
