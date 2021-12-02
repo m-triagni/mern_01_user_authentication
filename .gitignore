@@ -1,7 +1,6 @@
-client/node_modules
-client/.next
+client/node_modules/
+client/.next/
 client/next.config.js
 
-server/node_modules
-
-desktop.ini
+server/node_modules/
+ 

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -117,7 +117,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/auth */ "./utils/auth.js");
 /* harmony import */ var _listPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../listPage */ "./listPage.js");
 /* harmony import */ var _listEnum__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../listEnum */ "./listEnum.js");
-var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\components\\Layout.js";
+var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\components\\Layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -2478,7 +2478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _listAPI__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../listAPI */ "./listAPI.js");
 /* harmony import */ var _listEnum__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../listEnum */ "./listEnum.js");
 
-var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\pages\\user\\index.js";
+var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\pages\\user\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -2601,7 +2601,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\pages\\user\\withUser.js";
+var _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\pages\\user\\withUser.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
@@ -2755,14 +2755,14 @@ const logout = () => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /*!***********************************!*\
   !*** multi ./pages/user/index.js ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Agni\Udemy\MERNStack_AWS\SourceCode\frontend\pages\user\index.js */"./pages/user/index.js");
+module.exports = __webpack_require__(/*! C:\Agni\Udemy\MERNStack_AWS\SourceCode\client\pages\user\index.js */"./pages/user/index.js");
 
 
 /***/ }),

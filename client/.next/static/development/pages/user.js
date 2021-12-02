@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _listPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../listPage */ "./listPage.js");
 /* harmony import */ var _listEnum__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../listEnum */ "./listEnum.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\components\\Layout.js";
+    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
@@ -7561,10 +7561,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cfrontend%5Cpages%5Cuser%5Cindex.js!./":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cfrontend%5Cpages%5Cuser%5Cindex.js ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cclient%5Cpages%5Cuser%5Cindex.js!./":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cclient%5Cpages%5Cuser%5Cindex.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12476,7 +12476,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\pages\\user\\index.js";
+    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\pages\\user\\index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -12608,7 +12608,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\frontend\\pages\\user\\withUser.js";
+    _jsxFileName = "C:\\Agni\\Udemy\\MERNStack_AWS\\SourceCode\\client\\pages\\user\\withUser.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
@@ -12841,14 +12841,14 @@ var logout = function logout() {
 
 /***/ }),
 
-/***/ 4:
-/*!**********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cfrontend%5Cpages%5Cuser%5Cindex.js ***!
-  \**********************************************************************************************************************************************************/
+/***/ 19:
+/*!********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cclient%5Cpages%5Cuser%5Cindex.js ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cfrontend%5Cpages%5Cuser%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cfrontend%5Cpages%5Cuser%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cclient%5Cpages%5Cuser%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuser&absolutePagePath=C%3A%5CAgni%5CUdemy%5CMERNStack_AWS%5CSourceCode%5Cclient%5Cpages%5Cuser%5Cindex.js!./");
 
 
 /***/ }),
@@ -12864,5 +12864,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[19,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=user.js.map
