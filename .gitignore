@@ -3,3 +3,5 @@ frontend/.next
 frontend/next.config.js
 
 backend/node_modules
+
+desktop.ini
