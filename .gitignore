@@ -1,0 +1,5 @@
+frontend/node_modules
+frontend/.next
+frontend/next.config.js
+
+backend/node_modules
