@@ -1,3 +1,3 @@
-# How to run server
+# How to run client
 npm run dev
  
