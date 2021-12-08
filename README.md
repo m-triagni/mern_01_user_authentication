@@ -10,7 +10,7 @@ Provides user authentication functions using MERN Stack including these use case
 - Prepare 2 email account for email from and email to when email authentication is executed.
 - Put the email from and email to in AWS SNS service
 
-## 2. Update env file at server\.env and modify this content:
+## 2. Update env file at server/.env and modify this content:
 - DATABASE_URL : Type your database url
 - AWS_APP_KEY : AWS App Key for SNS email service
 - AWS_SECRET_KEY : AWS Secret Key for SNS email service
@@ -26,3 +26,10 @@ Provides user authentication functions using MERN Stack including these use case
 - Go to client folder 
 - Run this command : npm run dev
 
+## 5. Perform this use case :
+- Register user and email
+- Authenticate email
+- Login
+- Logout
+- Forget password
+- Reset password
