@@ -1,5 +1,14 @@
+/**
+ * It contains email content for verification and forget password
+ */
 const { listPage } = require('../listPage')
 
+/**
+ * emailVerificationParams : function to create email authentication 
+ * @param {string} email : email to address.
+ * @param {string} token : user token.
+ * @return {string} email authentication content
+ */
 exports.emailVerificationParams = (email, token) => {
     //create params for email verification
     return {
@@ -28,7 +37,12 @@ exports.emailVerificationParams = (email, token) => {
 
 }
 
-
+/**
+ * emailForgetPasswordParams : function to create email reset password 
+ * @param {string} email : email to address.
+ * @param {string} token : user token.
+ * @return {string} email reset password content
+ */
 exports.emailForgetPasswordParams = (email, token) => {
     //create params for email verification
     return {

@@ -1,3 +1,6 @@
+/**
+ * It contains schema related with user
+ */
 const mongoose = require('mongoose')
 const crypto = require('crypto')
 const {listEnum} = require('../listEnum')
@@ -56,7 +59,6 @@ userSchema.virtual('password')
         this.hashed_password = this.encryptPassword(password)
     })
 
-
 // methods : authenticate, encryptPassword, makeSalt
 userSchema.methods = {
     authenticate: function(plainText) {
@@ -79,7 +81,6 @@ userSchema.methods = {
         return Math.round(new Date().valueOf() * Math.random()) + '';
     }
 }
-
 
 // export user schema
 module.exports = mongoose.model('User', userSchema)

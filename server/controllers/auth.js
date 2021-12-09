@@ -14,9 +14,9 @@ const {listEnum} = require('../listEnum')
 
 require('dotenv').config();
 
-//------------------------------------------
-// AWS configuration to send email
-//------------------------------------------
+/**
+ * AWS SNS configuration as email service provider
+ */
 
 AWS.config.update({
     accessKeyId: process.env.AWS_APP_KEY,

@@ -1,4 +1,6 @@
-
+/**
+ * It contains functions related with user.
+ */
 exports.read = (req, res) => {
     req.profile.hash_password = undefined;
     req.profile.salt = undefined;

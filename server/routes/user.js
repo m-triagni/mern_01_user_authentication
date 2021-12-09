@@ -1,3 +1,6 @@
+/**
+ * It contains routes for user profile
+ */
 const express = require('express')
 const router = express.Router()
 const {listAPI} = require('../listAPI')
