@@ -1,5 +1,6 @@
 exports.listAPI = {
     API:'/api',
+    API_Test:'/test',
 
     API_Register: '/register',
     API_Activate: '/register/activate',

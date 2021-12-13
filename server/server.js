@@ -11,6 +11,7 @@ const app = express();
 const { listAPI } = require('./listAPI')
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
+const testRoutes = require('./routes/test');
 
 // apply middlewares
 app.use(morgan('dev'));
@@ -29,6 +30,7 @@ mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true, useUnifiedTop
 //set routes
 app.use(listAPI.API, authRoutes);
 app.use(listAPI.API, userRoutes);
+app.use(listAPI.API, testRoutes);
 
 // start open the port to listen
 const port = process.env.PORT ;
