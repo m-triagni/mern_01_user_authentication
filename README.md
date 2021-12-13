@@ -6,8 +6,8 @@ Provides user authentication functions using MERN Stack including these use case
 
 # Quick Start
 
-## 1. Make sure you have AWS account and register email from and email to :
-- Prepare 2 email account for email from and email to when email authentication is executed.
+## 1. Make sure you have AWS account and for non production environment, register email from and email to :
+- Prepare 2 email account for email from and email to for email authentication.
 - Put the email from and email to in AWS SNS service.
 
 ## 2. Update env file at server/.env and modify this content :
@@ -28,7 +28,10 @@ Provides user authentication functions using MERN Stack including these use case
         - HTTP with port 80
         - Custom TCP with port 8000 (for server port)
         - Custom TCP with port 3000 (for client port)
-- Install dependencies.
+- Login into EC2 instance and do these steps :
+    - Install nodeJs 
+    Use this link to help https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+    - Install dependencies.
 - Pull code onto the server from github.
 - Start your node application using pm2.
 - Configure nginx to make your app run on port 80.
