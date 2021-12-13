@@ -7,6 +7,6 @@
  */
  exports.test = (req, res) => {
    
-    res.json({ message: `Test success v1.2`  });
+    res.json({ message: `Test success v1.0.1`  });
  
 };
