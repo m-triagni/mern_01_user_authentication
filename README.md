@@ -4,6 +4,8 @@ Provides user authentication functions using MERN Stack including these use case
 - User login & logout.
 - User forget & reset password.
 
+For email authentication and reset password, I use JWT token to encrypt data and expiration. For email authentication, I use SNS from AWS.
+
 # Quick Start
 
 ## 1. Make sure you have AWS account and for non production environment, register email from and email to :
