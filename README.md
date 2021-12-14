@@ -108,7 +108,15 @@ Provides user authentication functions using MERN Stack including these use case
             - Go to server folder
                 - Stop the server : pm2 stop server
                 - Start the server : pm2 start server.js
-
+        - When EC2 is restart, the url will change. Do this following procedures
+            - Go to client folder
+                - Update next.config.js related with EC2 new url
+                - Stop the server : pm2 stop npm
+                - Start the server : pm2 start npm -- start
+            - Go to server folder
+                - Update .env related with EC2 new url
+                - Stop the server : pm2 stop npm
+                - Start the server : pm2 start npm -- start
 ## 4. Perform this use case :
 - Register user
 - Authenticate email
