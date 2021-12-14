@@ -82,7 +82,7 @@ const ResetPassword = ({router}) => {
                     <input 
                         value={state.newPassword}
                         onChange={handleChange('newPassword')} 
-                        type="email" className="form-control" placeholder="Type your new pssword" 
+                        type="password" className="form-control" placeholder="Type your new pssword" 
                         required
                         />
                 </div>

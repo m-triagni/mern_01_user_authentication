@@ -31,7 +31,7 @@ Provides user authentication functions using MERN Stack including these use case
 - Run this command : npm run dev
 - Check client : http://localhost:3000/
 
-## 5. Steps to running in AWS :
+## 3. Steps to running in AWS :
 - Create IAM User. 
   Make sure the created IAM user has EC2 & SNS access  (contains AmazonEC2FullAccess , AmazonSESFullAccess in the policy)
 - Create EC2 instance.
@@ -68,7 +68,8 @@ Provides user authentication functions using MERN Stack including these use case
         - Check if it's running properly : curl localhost:3000
     - Setup nginx to make the app run on port 80.
         - Install nginx : sudo apt install nginx
-        - Check if it's running properly : curl localhost
+        - Check if it's running properly : 
+            - curl localhost
         - Go to dir : cd /etc/nginx/sites-enabled
         - Edit default page : sudo vi default
         - Comment location and add this :
@@ -94,7 +95,7 @@ Provides user authentication functions using MERN Stack including these use case
         - Check if its running properly : 
             - http://[EC2 url]
             - http://[EC2 url]/api/test
-## 6. Perform this use case :
+## 4. Perform this use case :
 - Register user
 - Authenticate email
 - Login
