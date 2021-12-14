@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
 
-const Home = () =>  <Layout>Welcome to Next.js 2!</Layout> 
+const Home = () =>  <Layout>Welcome to User Authorization.</Layout> 
   
 export default Home

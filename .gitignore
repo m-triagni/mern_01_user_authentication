@@ -4,3 +4,4 @@ client/next.config.js
 
 server/node_modules/
 server/.env.local
+server/.env
