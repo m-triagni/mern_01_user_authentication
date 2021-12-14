@@ -48,7 +48,10 @@ Provides user authentication functions using MERN Stack including these use case
         - nvm install 16.13.1
         - nvm alias default 16.13.1
     - Check if git is installed: git --version
-    - Clone code from github: git clone https://github.com/m-triagni/mern_01_user_authentication.git
+    - Get code from github: 
+        - git clone https://github.com/m-triagni/mern_01_user_authentication.git
+        - git config --global user.email [email]
+        - git config --global user.password [password]    
     - Go to server folder 
         - Update .env file as in step #2 
         - Install dependencies : npm install
@@ -95,6 +98,17 @@ Provides user authentication functions using MERN Stack including these use case
         - Check if its running properly : 
             - http://[EC2 url]
             - http://[EC2 url]/api/test
+        - Any changes made in source code, you can update it with following procedures :
+            - Go to mern_01_user_authentication folder
+            - Pull from git hub : sudo git pull
+            - Go to client folder
+                - Build again : npm run build
+                - Stop the server : pm2 stop npm
+                - Start the server : pm2 start npm -- start
+            - Go to server folder
+                - Stop the server : pm2 stop server
+                - Start the server : pm2 start server.js
+
 ## 4. Perform this use case :
 - Register user
 - Authenticate email
@@ -102,3 +116,4 @@ Provides user authentication functions using MERN Stack including these use case
 - Logout
 - Forget password
 - Reset password
+
