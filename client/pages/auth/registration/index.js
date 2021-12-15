@@ -84,7 +84,7 @@ const Registration = () =>  {
                     <input 
                         value={name}
                         onChange={handleChange('name')} 
-                        type="text" className="form-control" placeholder="Type your name we are in camera"
+                        type="text" className="form-control" placeholder="Type your name."
                         required
                         />
                 </div>
@@ -92,7 +92,7 @@ const Registration = () =>  {
                     <input 
                         value={state.email}
                         onChange={handleChange('email')} 
-                        type="email" className="form-control" placeholder="Type your email" 
+                        type="email" className="form-control" placeholder="Type your email." 
                         required
                         />
                 </div>
@@ -100,7 +100,7 @@ const Registration = () =>  {
                     <input 
                         value={state.password}
                         onChange={handleChange('password')} 
-                        type="password" className="form-control" placeholder="Type your password" 
+                        type="password" className="form-control" placeholder="Type your password." 
                         required
                         />
                 </div>
