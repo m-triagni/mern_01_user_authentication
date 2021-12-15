@@ -12,10 +12,42 @@ const User = ({user, token}) => {
     const userHead = () => {
         return (
             <React.Fragment>
-                <h1>User Page</h1>
-                <p>User profile: {JSON.stringify(user)}</p>
-                <p>Token: {JSON.stringify(token)}</p>                
-                <br />
+                <form>
+                    <h1>User Page</h1>
+                    <div className="form-group">
+                        <label >Name</label>
+                        <input 
+                            value={user.name} 
+                            class="form-control" 
+                            disabled
+                            />
+                    </div>
+                    <div className="form-group">
+                        <label >Email</label>
+                        <input 
+                            value={user.email} 
+                            class="form-control" 
+                            disabled
+                            />
+                    </div>
+                    <div className="form-group">
+                        <label >Role</label>
+                        <input 
+                            value={user.role} 
+                            class="form-control" 
+                            disabled
+                            />
+                    </div>
+                    <div className="form-group">
+                        <label >Username</label>
+                        <input 
+                            value={user.username} 
+                            class="form-control" 
+                            disabled
+                            />
+                    </div>
+                    
+                </form>
             </React.Fragment>
         ) 
     }
